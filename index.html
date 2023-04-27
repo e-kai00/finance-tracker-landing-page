@@ -8,7 +8,7 @@
     <title>Your personal finance tracker</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -34,22 +34,26 @@
         </div>
     </nav>
 
-    <article class="container mt-3">
+    <!-- <div class="container alert-container">
         <div class="row">
             <div class="col-12">
                 <div class="alert alert-warning">
                     <strong>Sale is now ON!</strong> Get 10% off! <a href="#">See here for details.</a>
-
+    
                 </div>
             </div>
         </div>
-
-        <!-- Callout -->
+    </div> -->
+    
+    <!-- Callout -->
+    <div class="container-fluid callout-container">
+        <div class="opaque-overlay">&nbsp</div>
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
-                    <h1>Keep your finances under control</h1>
-                    <p><s class="d-none d-sm-inline">Subscription.</s>
+                    <h1 class="jumbotron-header">Keep your finances under control</h1>
+                    <hr class="block-devider">
+                    <p class="lead"><s class="d-none d-sm-inline">Subscription.</s>
                         <span class="d-inline d-sm-none"><br></span>
                         <strong><mark>Pay once, use forever $23</mark></strong>
                     </p>
@@ -59,9 +63,10 @@
                 </section>
             </div>
         </div>
-        <hr>
-
-        <!-- Quotes -->
+    </div>
+    
+    <!-- Quotes -->
+    <div class="container quotes-ontainer">
         <section class="quotes">
             <div class="row">
                 <div class="col-12 my-5">
@@ -97,9 +102,10 @@
                 </div>
             </div>
         </section>
-        <hr>
+    </div>
 
-        <!-- Features -->
+    <!-- Features -->
+    <div class="feature-container">
         <section class="features">
             <div class="row">
                 <div class="col-12 my-5">
@@ -127,40 +133,39 @@
                 </div>
             </div>
         </section>
+    </div>
 
-        <!-- Table -->
-        <section>
-            <div class="row">
-                <div class="col-12">
-                    <h3>Cash flow</h3>
-                </div>
+    <!-- Table -->
+    <section>
+        <div class="row">
+            <div class="col-12">
+                <h3>Cash flow</h3>
             </div>
-            <div class="row">
-                <div class="col-12"></div>
-                <table class="table table-dark">
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Spent</td>
-                            <td>$1,000</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Upcoming bills</td>
-                            <td>$800</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>What's left</td>
-                            <td>$1,500</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            </div>
-        </section>
-    </article>
-
+        </div>
+        <div class="row">
+            <div class="col-12"></div>
+            <table class="table table-dark">
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Spent</td>
+                        <td>$1,000</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Upcoming bills</td>
+                        <td>$800</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>What's left</td>
+                        <td>$1,500</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+    </section>
 
 
     <!-- Modal -->

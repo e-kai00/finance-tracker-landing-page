@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,300&display=swap');
+
+body {
+    font-family: Ubuntu, sans-serif;
+}
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+
+    background: url('../images/graph.jpg') no-repeat bottom left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.quotes-ontainer {}
+
+.feature-container {}
+
+
+/* Block deviders */
+
+.block-devider {
+    background-color: #95b6e3;
+    width: 50%;
+    height: 1px;
+}
+
+/* Jumbotrone */
+
+.jumbotron {
+    background-color: rgba(51, 51, 51, .5)
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: white;
+}
+
+.jumbotron small {
+    font-size: 80%;
+    font-style: italic;
+    color: white;
+}
+
+/* Buttons */
+
+/* .btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+    color: white;
+    background-color: blue;
+    border-color: blue;
+}
+
+.btn--cta:hover,
+.btn--cta:active,
+.btn--cta:focus,
+.btn--cta:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+} */

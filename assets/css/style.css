@@ -4,7 +4,19 @@ body {
     font-family: Ubuntu, sans-serif;
 }
 
-.alert-container {}
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #ecb710;
+    border-color: #ecb710;
+}
 
 .callout-container {
     height: 100vh;
@@ -44,10 +56,36 @@ body {
     height: 1px;
 }
 
+
+/* Navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {    
+    font-weight: bold;
+}
+
 /* Jumbotrone */
 
 .jumbotron {
-    background-color: rgba(51, 51, 51, .5)
+    background-color: transparent
 }
 
 .jumbotron-header {
@@ -67,22 +105,24 @@ body {
     color: white;
 }
 
+
 /* Buttons */
 
-/* .btn--cta {
+.btn--cta {
     font-weight: bold;
-    border-radius: 23px;
-    width: 160px;
-    color: white;
-    background-color: blue;
-    border-color: blue;
+    border-radius: 15px;
+    width: 150px;
+    height: 53px;
+    color: black;
+    background-color: #c58c23;
+    border-color: #c58c23;
 }
 
 .btn--cta:hover,
 .btn--cta:active,
 .btn--cta:focus,
 .btn--cta:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
-    color: white;
-} */
+    background-color: #a9720c;
+    border-color: #a9720c;
+    color: black;
+}

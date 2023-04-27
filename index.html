@@ -14,37 +14,38 @@
 <body>
 
     <!-- Nav -->
-    <nav class="navbar navbar-dark bg-primary navbar-expand-sm">
-        <a href="/" class="navbar-brand">Finance Tracker</a>
-
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span></button>
-
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mg-auto">
-                <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="/">About</a></li>
-                <li class="nav-item mr-2 d-block d-md-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
-            </ul>
-        </div>
-        <div class="d-none d-md-block ml-auto">
-            <p class="navbar-text my-auto mr-2"><i>Your finances organized</i></p>
-            <a class="text-light" href="/login">Sign in / Sign up</a>
-        </div>
-    </nav>
-
-    <!-- <div class="container alert-container">
-        <div class="row">
-            <div class="col-12">
-                <div class="alert alert-warning">
-                    <strong>Sale is now ON!</strong> Get 10% off! <a href="#">See here for details.</a>
-    
+    <div class="container-fluid navalert-container">
+        <div class="container-fluid alert-container">
+            <div class="row d-none d-sm-block">
+                <div class="col-12">
+                    <div class="site-wide-alert alert alert-warning">
+                        <strong>Sale is now ON!</strong> Get 10% off! <a href="#">See here for details.</a>
+        
+                    </div>
                 </div>
             </div>
         </div>
-    </div> -->
+        <nav class="navbar navbar-dark bg-primary navbar-expand-sm">
+            <a href="/" class="navbar-brand">Finance Tracker</a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span></button>
     
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mg-auto">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/">About</a></li>
+                    <li class="nav-item mr-2 d-block d-md-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
+                </ul>
+            </div>
+            <div class="d-none d-md-block ml-auto">
+                <p class="navbar-text my-auto mr-2"><i>Your finances organized</i></p>
+                <a class="text-light" href="/login">Sign in / Sign up</a>
+            </div>
+        </nav>
+    </div>
+
+      
     <!-- Callout -->
     <div class="container-fluid callout-container">
         <div class="opaque-overlay">&nbsp</div>
@@ -58,7 +59,7 @@
                         <strong><mark>Pay once, use forever $23</mark></strong>
                     </p>
                     <p class="text-muted"><small>Are you ready to level up financially?</small></p>
-                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#getNow">Get
+                    <button type="button" class="btn btn--cta" data-toggle="modal" data-target="#getNow">Get
                         it now!</button>
                 </section>
             </div>

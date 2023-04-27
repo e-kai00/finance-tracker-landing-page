@@ -9,6 +9,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </head>
 <body>
+
     <!-- Nav -->
     <nav class="navbar navbar-dark bg-primary navbar-expand-sm">
         <a href="/" class="navbar-brand">Finance Tracker</a>
@@ -17,27 +18,38 @@
             <li class="nav-item mr-2"><a class="nav-link" href="/">About</a></li>
             <li class="nav-item mr-2 d-block d-md-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
         </ul>
-        <div class="d-none d-md-block">
+        <div class="d-none d-md-block ml-auto">
             <p class="navbar-text my-auto mr-2"><i>Your finances organized</i></p>
             <a class="text-light" href="/login">Sign in / Sign up</a>
         </div>
     </nav>
-    <article class="container mt-3">
+
+    <article class="container mt-3">    
+        <div class="row">
+            <div class="col-12">
+                <div class="alert alert-warning">
+                    <strong>Sale is now ON!</strong> Get 10% off! <a hfer="/">See here for details.</a> 
+
+                </div>
+            </div>
+        </div>
+
         <!-- Callout -->
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
                     <h1>Keep your finances under control</h1>
-                    <p><s class="d-none d-sm-inline">Subscription.</s> 
+                    <p><s class="d-none d-sm-inline">Subscription.</s>
                         <span class="d-inline d-sm-none"><br></span>
-                        <strong><mark>Pay once, use forever $23</mark></strong>.</p>
+                        <strong><mark>Pay once, use forever $23</mark></strong>
+                    </p>
                     <p class="text-muted"><small>Are you ready to level up financially?</small></p>
                     <button class="btn btn-primary btn-lg">Get it now!</button>
                 </section>
             </div>
         </div>
         <hr>
-
+    
         <!-- Quotes -->
         <section class="quotes">
             <div class="row">
@@ -47,21 +59,35 @@
             </div>
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <blockquote class="blockquote">
-                        <p>This is the best app ever for my finances. Thank you.</p>
-                        <p>- Emma B.</p>
-                    </blockquote>
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img src="assets/images/guy.jpg" class="rounded-circle mr-3" height=100 width=100>
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>This is the best app ever for my finances. Thank you.</p>
+                                <p>- Paul B.</p>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <blockquote class="blockquote">
-                        <p>Very useful app. Been using the finance tracker to better manage my finances</p>
-                        <p>- Kristine N.</p>
-                    </blockquote>
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img src="assets/images/woman.jpg" class="rounded-circle mr-3" height=100 width=100>
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>Very useful app. Been using the finance tracker to better manage my finances</p>
+                                <p>- Kristine N.</p>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <hr>
-
+    
         <!-- Features -->
         <section class="features">
             <div class="row">
@@ -72,24 +98,26 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3>Accounts</h3>
+                        <h3><i class="fa-regular fa-credit-card d-none d-sm-inline"></i> Accounts</h3>
                         <p>Add as many accounts as you wish.</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3>Expenses</h3>
+                        <h3><i class="fa-solid fa-coins d-none d-sm-inline"></i> Expenses</h3>
                         <p>Track your daily expenses grouped by custom categories.</p>
                     </div>
                 </div>
                 <div class="col-12 d-md-none d-lg-block col-lg-4">
                     <div class="feature">
-                        <h3>Income</h3>
+                        <h3><i class="fa-solid fa-sack-dollar d-none d-sm-inline"></i> Income</h3>
                         <p>Track your fixed and variable incomes under their respective accounts.</p>
                     </div>
                 </div>
             </div>
         </section>
+    
+        <!-- Table -->
         <section>
             <div class="row">
                 <div class="col-12">
@@ -119,7 +147,8 @@
                 </table>
             </div>
             </div>
-            </section>
-    </article>    
+        </section>
+    </article>
+    <script src="https://kit.fontawesome.com/624b5d3773.js" crossorigin="anonymous"></script>
 </body>
 </html>

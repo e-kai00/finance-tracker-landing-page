@@ -7,13 +7,18 @@ body {
 .container-wrapper {}
 
 .container-wrapper--bronze {
-    background-color: #c58c23;    
+    background-color: #0bc9cdff;
+    color: #444;   
 }
 
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
+}
 
+.alert-warning {
+    text-align: center;
+    color:black;
 }
 
 .site-wide-alert {
@@ -66,14 +71,12 @@ body {
 
 /* Block deviders */
 
-.block-devider {
-    background-color: #95b6e3;
-    width: 50%;
-    height: 1px;
+.block-devider {    
+    width: 30%;    
 }
 
-.block-devider--white {
-    background-color: wheat;
+.block-devider--black {
+    background-color: #444;
 }
 
 /* Content containers */
@@ -82,6 +85,7 @@ body {
     padding-top: 75px;
     padding-bottom: 75px;
 }
+
 
 /* Navbar */
 
@@ -98,6 +102,7 @@ body {
     margin-bottom: 0;
     border: 0;
     width: 100%;
+    background-color: rgba(0, 0, 0, .25);
 }
 
 .navbar .navbar-toggler {
@@ -107,6 +112,7 @@ body {
 .navbar-brand {    
     font-weight: bold;
 }
+
 
 /* Jumbotrone */
 
@@ -140,16 +146,20 @@ body {
     width: 150px;
     height: 53px;
     color: black;
-    background-color: #c58c23;
-    border-color: #c58c23;
+    background-color: #0bc9cdff;
+    border-color: #0bc9cdff;
+}
+
+.btn--login {
+    height: auto;
 }
 
 .btn--cta:hover,
 .btn--cta:active,
 .btn--cta:focus,
 .btn--cta:active:focus {
-    background-color: #a9720c;
-    border-color: #a9720c;
+    background-color: #06e7ec;
+    border-color: #06e7ec;
     color: black;
 }
 

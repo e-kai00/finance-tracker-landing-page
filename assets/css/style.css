@@ -4,6 +4,12 @@ body {
     font-family: Ubuntu, sans-serif;
 }
 
+.container-wrapper {}
+
+.container-wrapper--bronze {
+    background-color: #c58c23;    
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -43,9 +49,19 @@ body {
     background-color: rgba(0, 0, 0, .5);
 }
 
-.quotes-ontainer {}
 
-.feature-container {}
+/* Page headers  */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
 
 
 /* Block deviders */
@@ -56,6 +72,16 @@ body {
     height: 1px;
 }
 
+.block-devider--white {
+    background-color: wheat;
+}
+
+/* Content containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
 
 /* Navbar */
 
@@ -125,4 +151,17 @@ body {
     background-color: #a9720c;
     border-color: #a9720c;
     color: black;
+}
+
+/* Features */
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
 }
